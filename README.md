@@ -12,3 +12,11 @@ or
     echo '[ -f ~/dotfiles/.bash_custom ] && source ~/dotfiles/.bash_custom' >> ~/.bashrc
 
     source .bashrc
+
+## Vim
+
+Make a symbolic link
+
+```sh
+cd ~ && ln -s dotfiles/.vimrc ~/.vimrc
+```
