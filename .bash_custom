@@ -1,23 +1,24 @@
 # =========================================================
 # === HIGHLIGHTED PROMPT CONFIGURATION (TRUE COLOR / RGB) ===
 # =========================================================
-
+#
 # 1. RGB color definition (R, G, B) - Three numbers between 0 and 255
+#
 # Format: 48;2;R;G;B (Background) and 38;2;R;G;B (Text)
 # Example: Bright Orange Background (RGB 255, 119, 0)
 
 export BG_VPS_CODE="48;2;144;66;168"
 
 # Example: Pure White Text (RGB 255, 255, 255)
-
 export FG_VPS_CODE="38;2;255;255;255"
+
+# Example: Path color in White/Light gray (RGB 255, 255, 255)
+export PATH_VPS_CODE="38;2;133;214;176"
 
 # 2. PS1 construction (Do not modify)
 
 RESET="\[\033[00m\]"
-PATH_COLOR="\[\033[01;37m\]" # Path in White/Light gray (More visible on colored background)
+PATH_COLOR="\[\033[\${PATH_VPS_CODE}m\]"
 # PS1: Format {Background;Text} user@host {Reset} : Path {Reset}$
 PS1='${debian_chroot:+($debian_chroot)}\[\033['${BG_VPS_CODE}';'${FG_VPS_CODE}'m\] \u@\h '${RESET}':'${PATH_COLOR}'\w'${RESET}'\$ '
-
 # =========================================================
-
