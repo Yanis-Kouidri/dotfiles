@@ -15,8 +15,12 @@ or
 
 ## Vim
 
-Make a symbolic link
-
 ```sh
 cd ~ && ln -s dotfiles/.vimrc ~/.vimrc
+```
+
+## Git
+
+```sh
+cd ~ && ln -s dotfiles/.gitconfig ~/.gitconfig
 ```
