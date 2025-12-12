@@ -9,9 +9,15 @@ or
 
     cd ~ && git clone https://github.com/Yanis-Kouidri/dotfiles.git
 
+
+
     echo '[ -f ~/dotfiles/.bash_custom ] && source ~/dotfiles/.bash_custom' >> ~/.bashrc
-    
+
+
+
     cd ~ && ln -s dotfiles/.bash_aliases ~/.bash_aliases
+
+
 
     source .bashrc
 
