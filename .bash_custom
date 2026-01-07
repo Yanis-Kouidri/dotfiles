@@ -25,7 +25,11 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033['${BG_VPS_CODE}';'${FG_VPS_CODE}'m
 
 
 # Kubectl autocompletion
-source <(kubectl completion bash)
+if command -v kubectl &> /dev/null; then
+    source <(kubectl completion bash)
+fi
 
 # Helm autocompletion
-source <(helm completion bash)
+if command -v helm &> /dev/null; then
+    source <(helm completion bash)
+fi
