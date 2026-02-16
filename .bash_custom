@@ -33,3 +33,7 @@ fi
 if command -v helm &> /dev/null; then
     source <(helm completion bash)
 fi
+
+
+# Make vi as default editor
+export EDITOR="vi"
