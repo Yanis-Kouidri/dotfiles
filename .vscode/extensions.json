@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ltex-plus.vscode-ltex-plus",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint"
+    ]
+}
