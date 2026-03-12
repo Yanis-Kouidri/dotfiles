@@ -47,3 +47,9 @@ cd ~ && ln -s dotfiles/.gitconfig ~/.gitconfig
 ```bash
 ln -s ~/dotfiles/config.ghostty ~/.config/ghostty/config.ghostty
 ```
+
+## Visual Studio Code
+
+```bash
+ln -s ~/dotfiles/vscode-config/settings.json ~/.config/Code/User/settings.json
+```
