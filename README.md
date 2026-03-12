@@ -1,4 +1,5 @@
 # dotfiles
+
 All my dot files like `.bash_custom` `.vimrc`
 
 ## Bash
@@ -37,4 +38,12 @@ cd ~ && ln -s dotfiles/.vimrc ~/.vimrc
 
 ```bash
 cd ~ && ln -s dotfiles/.gitconfig ~/.gitconfig
+```
+
+## Ghostty
+
+[Ghostty](https://ghostty.org/) is a fast terminal emulator.
+
+```bash
+ln -s ~/dotfiles/config.ghostty ~/.config/ghostty/config.ghostty
 ```
