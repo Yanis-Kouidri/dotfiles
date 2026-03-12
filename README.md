@@ -53,3 +53,11 @@ ln -s ~/dotfiles/config.ghostty ~/.config/ghostty/config.ghostty
 ```bash
 ln -s ~/dotfiles/vscode-config/settings.json ~/.config/Code/User/settings.json
 ```
+
+### Snippets
+
+Markdown
+
+```bash
+ln -s ~/dotfiles/vscode-config/snippets/markdown.json ~/.config/Code/User/snippets/
+```

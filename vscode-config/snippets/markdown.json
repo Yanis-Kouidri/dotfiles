@@ -1,0 +1,7 @@
+{
+	// Place your snippets for markdown here.
+	"Markdown Bash block": {
+		"prefix": "mbb",
+		"body": "```bash\n$0\n```"
+	}
+}
