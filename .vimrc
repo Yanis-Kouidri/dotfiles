@@ -23,3 +23,5 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentke
 
 " Activate syntaxic coloration
 syntax on
+
+autocmd FileType nix setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab
