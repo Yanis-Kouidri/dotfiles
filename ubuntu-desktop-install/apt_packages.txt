@@ -1,0 +1,7 @@
+# List of apt packages to install
+git
+curl
+vim
+pipx
+ffmpeg
+vlc
