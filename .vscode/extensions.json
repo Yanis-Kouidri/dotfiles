@@ -2,6 +2,8 @@
     "recommendations": [
         "ltex-plus.vscode-ltex-plus",
         "yzhang.markdown-all-in-one",
-        "davidanson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "voidei.vscode-vimrc",
+        "mads-hartmann.bash-ide-vscode"
     ]
 }
