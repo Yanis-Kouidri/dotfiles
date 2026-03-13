@@ -20,3 +20,14 @@ fi
 if ! command -v deno &> /dev/null; then
     curl -fsSL https://deno.land/install.sh | sh
 fi
+
+# Rust
+
+if ! command -v rustup &> /dev/null; then
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+fi
+
+# dua-cli
+if ! command -v dua &> /dev/null; then
+    cargo install dua-cli
+fi
