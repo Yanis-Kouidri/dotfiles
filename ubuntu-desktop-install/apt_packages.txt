@@ -10,3 +10,4 @@ eza
 pkg-config
 libssl-dev
 build-essential
+imagemagick
