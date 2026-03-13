@@ -7,3 +7,6 @@ ffmpeg
 vlc
 bat
 eza
+pkg-config
+libssl-dev
+build-essential

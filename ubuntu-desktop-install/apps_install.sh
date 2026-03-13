@@ -27,7 +27,20 @@ if ! command -v rustup &> /dev/null; then
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 fi
 
+# Update rust
+rustup update
+
+# Install a tool to update cargo installed tools
+if ! command -v cargo-install-update &> /dev/null; then
+    cargo install cargo-update
+fi
+
 # dua-cli
 if ! command -v dua &> /dev/null; then
     cargo install dua-cli
+fi
+
+# fd (better find)
+if ! command -v fd &> /dev/null; then
+    cargo install fd-find
 fi
