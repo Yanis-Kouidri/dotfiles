@@ -8,3 +8,5 @@ alias kc="k create -f "
 alias ip="ip -c"
 
 alias bat="batcat"
+
+alias ll="eza -lha --icons=auto --sort=name --group-directories-first"

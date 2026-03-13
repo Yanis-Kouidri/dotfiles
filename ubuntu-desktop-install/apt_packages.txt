@@ -6,3 +6,4 @@ pipx
 ffmpeg
 vlc
 bat
+eza
