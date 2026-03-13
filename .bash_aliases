@@ -6,3 +6,5 @@ alias kc="k create -f "
 
 # Others
 alias ip="ip -c"
+
+alias bat="batcat"
