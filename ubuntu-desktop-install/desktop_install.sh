@@ -11,6 +11,6 @@ pipx ensurepath
 
 ./apps_install.sh
 
-./create_sym_link.sh
+./create_sym_links.sh
 
 source ~/.bashrc
