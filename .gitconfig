@@ -3,3 +3,5 @@
 	name = Yanis Kouidri
 [core]
 	editor = vim
+[init]
+	defaultBranch = main
