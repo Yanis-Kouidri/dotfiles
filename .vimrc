@@ -16,7 +16,7 @@ set smartcase              " Unless uppercase is present
 map <F4> :nohl<CR>
 
 " Set a theme
-colorscheme industry
+"colorscheme industry
 
 " For YAML files
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:>
